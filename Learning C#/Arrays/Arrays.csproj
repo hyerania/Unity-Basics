@@ -87,9 +87,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameManger.cs" />
     <Compile Include="Assets\Humanoid.cs" />
     <Compile Include="Assets\ListTimeBaby.cs" />
+    <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\UpTownFunctionYouUp.cs" />
+    <Compile Include="Assets\Zombie.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
